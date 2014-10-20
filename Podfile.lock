@@ -1,0 +1,27 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - NSStringMask (1.2)
+
+DEPENDENCIES:
+  - BlocksKit (~> 2.2)
+  - NSStringMask (~> 1.2)
+
+SPEC CHECKSUMS:
+  BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
+  NSStringMask: 5a2bd1214cae7396aaa14487ea972a8966d49d18
+
+COCOAPODS: 0.34.4
